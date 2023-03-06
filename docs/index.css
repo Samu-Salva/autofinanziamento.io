@@ -1,0 +1,100 @@
+nav {
+    background-image: linear-gradient(to bottom right, green, darkgreen);
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#navigazione {
+    height: 20%;
+}
+
+h1 {
+    color: white;
+    font-size: 150%;
+    padding-left: 3%;
+    display: inline-block;
+    font-family: rockwell;
+}
+
+nav ul {
+    display: inline-block;
+    padding-left: 50%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover, nav h1:hover {
+    color: yellow;
+    transition: all 0.8s ease 0s;
+}
+
+.fascia1 {
+    display: inline-block;
+    padding-bottom: 2%;
+}
+
+img {
+    height: 250px;
+    display: block;
+}
+
+#logo {
+    padding-left: 35%;
+}
+
+p {
+    font-family: rockwell;
+    font-size: 115%;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 300%;
+    font-family: bradley hand;
+}
+
+#p2 {
+    text-align: center;
+    font-size: 110%;
+    padding-left: 40%;
+}
+
+#div2 { 
+    vertical-align: 500%;
+}
+
+#tempo {
+    height: 250px;
+    background-image: linear-gradient(to bottom right, #d45a3b, #d02525);
+    font-size: 110%;
+    border-radius: 15px;
+    padding-left: 3%;
+    padding-top: 1%;
+} 
+
+#tempo > a {
+    color: white;
+    font-family: rockwell;
+}
+
+#demo {
+    color: white;
+    font-size: xx-large;
+    padding-left: 5%;
+}
+
+#raccolta > img {
+    display: inline;
+    border: 1px solid black;
+    padding-left: 2%;
+}
